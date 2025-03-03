@@ -61,8 +61,10 @@ function RootLayoutNav() {
           options={{
             presentation: "modal",
             gestureEnabled: false,
+            headerShown: false,
           }}
         />
+        <Stack.Screen name="crag/[id]" options={{ headerShown: false }} />
       </Stack>
     </ThemeProvider>
   );
