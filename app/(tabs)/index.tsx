@@ -1,5 +1,8 @@
 /**
- * @TODO : perhaps the SearchBar needs to disapear when we scroll?
+ * @TODO :
+ *  - perhaps the SearchBar needs to disapear when we scroll?
+ *  - Map button here or in a different tab?
+ *  
  */
 
 import { StyleSheet } from "react-native";

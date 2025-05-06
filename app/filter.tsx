@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import Svg, { Rect } from "react-native-svg";
 import { scaleLinear } from "d3-scale";
-import MultiSlider from "@ptomasroos/react-native-multi-slider";
+//import MultiSlider from "@ptomasroos/react-native-multi-slider";
 import Checkbox from "expo-checkbox"; // Import expo-checkbox
 import { PieChart } from "react-native-chart-kit";
 import { Ionicons } from "@expo/vector-icons";
@@ -142,7 +142,7 @@ const FilterScreen = () => {
             ))}
           </Svg>
 
-          <MultiSlider
+          {/*<MultiSlider
             values={[
               nonCollidingMultiSliderValue[0],
               nonCollidingMultiSliderValue[1],
@@ -155,7 +155,7 @@ const FilterScreen = () => {
             allowOverlap={true}
             snapped
             customMarker={CustomMarker}
-          />
+          />*/}
         </View>
       </View>
 
